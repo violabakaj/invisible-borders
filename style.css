@@ -179,3 +179,28 @@ footer {
 .links-grid a:hover {
   background-color: #084298;
 }
+
+.response-box {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.response-box a {
+  display: inline-block;
+  background-color: #198754; /* green, data/analysis tone */
+  color: white;
+  padding: 14px 22px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.response-box a:hover {
+  background-color: #146c43;
+}
+
+.note {
+  font-size: 0.9rem;
+  color: #6c757d;
+  text-align: center;
+}
