@@ -204,3 +204,32 @@ footer {
   color: #6c757d;
   text-align: center;
 }
+
+/* Gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.gallery-grid figure {
+  margin: 0;
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.gallery-grid figcaption {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  text-align: center;
+  color: #555;
+}
