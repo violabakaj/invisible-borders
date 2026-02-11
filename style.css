@@ -258,3 +258,24 @@ footer {
   margin-top: 20px;  /* kjo e ul foton */
   text-align: center;
 }
+
+.card h3 {
+  margin-top: 30px;
+  color: #0d6efd;
+}
+
+.card h4 {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.card ul {
+  margin: 10px 0 20px 20px;
+  line-height: 1.6;
+}
+
+.card hr {
+  margin: 35px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
