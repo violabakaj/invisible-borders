@@ -339,3 +339,38 @@ footer {
 .experiment-image {
   flex: 1.5;   /* foto pak më dominante */
 }
+
+/* Questionnaire 2-column layout */
+
+.questionnaire-layout {
+  display: flex;
+  gap: 60px;
+  margin-top: 30px;
+}
+
+.questionnaire-text {
+  flex: 1.2;
+}
+
+.questionnaire-questions {
+  flex: 1;
+  background-color: #f8f9fa;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.questionnaire-questions ol {
+  padding-left: 20px;
+  line-height: 1.7;
+}
+
+.intro-quote {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  .questionnaire-layout {
+    flex-direction: column;
+  }
+}
