@@ -247,3 +247,14 @@ footer {
   line-height: 1.7;
 }
 
+.quick-description {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.quick-image {
+  margin-top: 20px;  /* kjo e ul foton */
+  text-align: center;
+}
