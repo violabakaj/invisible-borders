@@ -306,3 +306,37 @@ footer {
   border: none;
   border-top: 1px solid #ddd;
 }
+/* Two-column experiment layout */
+
+.experiment-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 60px;  /* distancë mes dy eksperimenteve */
+}
+
+.experiment-text {
+  flex: 1;
+}
+
+.experiment-image {
+  flex: 1;
+}
+
+.experiment-image img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Responsive për mobile */
+
+@media (max-width: 900px) {
+  .experiment-block {
+    flex-direction: column;
+  }
+}
